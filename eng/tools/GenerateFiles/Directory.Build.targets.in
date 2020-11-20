@@ -88,6 +88,6 @@
     <Error Text="Unable to determine dotnet root location." Condition=" '$(_DotNetRoot)' == '' " />
     <Error Text="Dotnet root location '$(_DotNetRoot)' does not exist." Condition=" !EXISTS('$(_DotNetRoot)') " />
     <Warning Text="Requested Microsoft.AspNetCore.App v${MicrosoftAspNetCoreAppRuntimeVersion} does not exist."
-        Condition=" !(EXISTS('$(_DotNetRoot)shared\Microsoft.AspNetCore.App\${MicrosoftAspNetCoreAppRuntimeVersion}') " />
+        Condition=" !EXISTS('$(_DotNetRoot)shared\Microsoft.AspNetCore.App\${MicrosoftAspNetCoreAppRuntimeVersion}') " />
   </Target>
 </Project>
