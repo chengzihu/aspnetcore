@@ -1,6 +1,6 @@
 # Caching
 
-This area contains distributed cache implementations for Microsoft SQL Server, and Redis. See documentation at https://docs.microsoft.com/en-us/aspnet/core/fundamentals/http-requests#use-polly-based-handlers.
+This area contains distributed cache implementations for Microsoft SQL Server and Redis. See documentation at <https://docs.microsoft.com/en-us/aspnet/core/fundamentals/http-requests#use-polly-based-handlers>.
 
 ## Description
 
