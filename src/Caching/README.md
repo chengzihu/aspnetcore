@@ -4,7 +4,7 @@ This area contains distributed cache implementations for Microsoft SQL Server an
 
 ## Description
 
-These packages are not part of the ASP.NET Core shared framework but are shipped as an individual package. This packages has a third party dependencies on Polly and Polly.Extensions.Http.
+These packages are not part of the ASP.NET Core shared framework but are shipped as an individual package. These packages have a third party dependencies on Polly and Polly.Extensions.Http.
 
 ## Development Setup
 
